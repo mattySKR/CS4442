@@ -1,3 +1,5 @@
+*** All the plots and discussions can be found in the "CS4442_assignment_1.pdf" file ****
+
 -- Part 2: --
 
 Here we will implement linear and polynomial regression in Python. 
@@ -60,6 +62,3 @@ c) We write a procedure that performs five-fold cross-validation on the training
 We then use it to determine the best value for λ. We show the average error on the validation
 set as a function of λ. We argue whether it is the same as the best λ in 3a). 
 For the best fit, we plot the test data and the l_2-regularized 4th-order polynomial regression line obtained.
-
-
-
