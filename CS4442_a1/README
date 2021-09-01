@@ -1,0 +1,65 @@
+-- Part 2: --
+
+Here we will implement linear and polynomial regression in Python. 
+The training data set consists of the features hw1xtr.dat and their desired outputs hw1ytr.dat. 
+The test data set consists of the features hw1xte.dat and their desired outputs hw1yte.dat.
+
+For 2a.py:
+
+We load the training data hw1xtr.dat and hw1ytr.dat into the memory and plot it on one
+graph. Then we load the test data hw1xte.dat and hw1yte.dat into the memory and plot it on another
+graph.
+
+
+For 2b_and_2c.py:
+
+b) We add a column vector of 1’s to the features, then use the linear regression formula 
+to obtain a 2-dimensional weight vector. We plot both the linear regression line
+and the training data on the same graph. We also report the average error on the training set.
+
+c) We plot both the regression line and the test data on the same graph. We also report the
+average error on the test set.
+
+
+For 2d.py:
+
+d) We implement the 2nd-order polynomial regression by adding new features x^2 to the inputs.
+We repeat b) and c) and then compare the training error and test error. Then we argue whether 
+it is a better fit than linear regression.
+
+
+For 2e.py:
+
+e) WE implement the 3rd-order polynomial regression by adding new features x^2, x^3 to the
+inputs. We repeat b) and c). We then compare the training error and test error. We then argue whether 
+it is a better fit than linear regression and 2nd-order polynomial regression.
+
+
+For 2f.py:
+
+f) We implement the 4th-order polynomial regression by adding new features x^2, x^3, x^4
+to the inputs. We repeat b) and c). We then compare the training error and test error. 
+Compared with the previous results, we choose which order is the best for fitting the data.
+
+
+-- Part 3: --
+
+For 3a_and_3b.py:
+
+a) Using the training data to implement l_2-regularized for the 4th-order polynomial regression 
+(we do not penalize the bias term w_0) we vary the regularization parameter λ ∈ {0.01, 0.1, 1, 10, 100, 1000, 10000}. 
+We plot the training and test error (averaged over all instances) as a function of λ (log_10 scale for λ). 
+We then argue which λ is the best for fitting the data.
+
+b) We plot the value of each weight parameter (including the bias term w_0) as a function of λ.
+
+
+For 3c.py:
+
+c) We write a procedure that performs five-fold cross-validation on the training data. 
+We then use it to determine the best value for λ. We show the average error on the validation
+set as a function of λ. We argue whether it is the same as the best λ in 3a). 
+For the best fit, we plot the test data and the l_2-regularized 4th-order polynomial regression line obtained.
+
+
+
