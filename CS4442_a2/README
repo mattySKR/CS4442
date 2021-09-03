@@ -1,4 +1,4 @@
-*** All the plots and graphs can be found in the "CS4442_assignment_2.pdf" file.
+*** All the plots and plots can be found in the "CS4442_assignment_2.pdf" file.
     Quesion 1 involves Laplace smoothing  and Question 2 involves constructing
     new kernels by combining the existing kernels. ***
     
@@ -8,17 +8,55 @@ For this part, we will use principal component analysis (PCA) to analyze face im
 The data set located in faces.dat.txt.zip; each row represents animage (400 images), and each 
 column represents a pixel (64 × 64 = 4096 pixels).
 
-a) 3_a.py
+For 3_a.py :
 
-In this program we just display the 100th image.
-
-
-b) 3_b.py
-
-In this program we remove the mean of the images, and then display the 100th image.
+a) In this program we just display the 100th image.
 
 
-c) 
+For 3_b.py :
+
+b) In this program we remove the mean of the images, and then display the 100th image.
+
+
+For 3_c_e.py :
+
+c) In this part we perform PCA on the mean-centered data matrix. We imported PCA toolbox from
+   sklearn.decomposition library and performed eigenvalue decomposition over the sample covariance matrix. 
+   We then sorted the eigenvalues in a descending order and plotted them.
+
+d) This part does not require programming. We just find the last (400th) eigenvalue 
+   being 0 and explaing why this is the case.
+   
+e) Here, based on the eigenvalues, we determined the dimensionality of the data we want to keep
+   (i.e., how many principal components we want to keep), which accounts for most of the variance.
+   We then show our reasoning.
+
+
+For 3_f.py :
+
+f) Here, we display the top-5 leading eigenvectors (corresponding to the top-5 largest eigenvalues)
+   in 5 figures.
+
+
+For 3_g.py :
+
+g) In this program, we display, respectively, the reconstructed 100th images using 10, 100, 200, and 399 principal components. 
+We have learned that x_hat = v * v^T * x if we project x into 1-dimensional space using the 1st principal component. 
+Reconstructed x_hat using top-K principal components is a straightforward extension: x_hat = SUM{ (from k=1 to K) v_k * (v_k)^T * x }.
+
+
+*  In order to display the images and principal components (i.e., 3a), 3b), 3f), 3g)), we
+first reshaped the 4096-dimensional vector into a 64 × 64 matrix. Then, we can display them. *
+
+
+
+
+
+
+
+
+
+
 
 
   
