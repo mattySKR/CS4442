@@ -17,7 +17,7 @@ of artificial intelligence and their practical applications in computer vision.
 * Support Vector Machines (SVMs)
 * Kernels
 * Prinicipal Component Analysis (PCA)
-
+-------------------------------------
 * Edge Detection
 * Segmentation
 * Motion
