@@ -1,0 +1,25 @@
+*** All the plots and graphs can be found in the "CS4442_assignment_2.pdf" file.
+    Quesion 1 involves Laplace smoothing  and Question 2 involves constructing
+    new kernels by combining the existing kernels. ***
+    
+    
+--- For Question 3: ---
+For this part, we will use principal component analysis (PCA) to analyze face images in Python. 
+The data set located in faces.dat.txt.zip; each row represents animage (400 images), and each 
+column represents a pixel (64 × 64 = 4096 pixels).
+
+a) 3_a.py
+
+In this program we just display the 100th image.
+
+
+b) 3_b.py
+
+In this program we remove the mean of the images, and then display the 100th image.
+
+
+c) 
+
+
+  
+  
