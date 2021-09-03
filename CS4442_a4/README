@@ -1,0 +1,37 @@
+=== ASSIGNMENT DESCRIPTION: ===
+
+*** The assignment was done in the python Jupyter notebook can be 
+    found in the current directory. ***
+    
+    
+--- CIFAR 10 classification: ---
+
+  The CIFAR-10 dataset consists of 60000 32x32 colour images in 10 classes, with 6000 images
+  per class. There are 50000 training images and 10000 test images. The dataset is divided into
+  five training batches and one test batch, each with 10000 images. We consider 4 training batches
+  as training set (40000 images), 1 training batch (10000 images) as validation.
+
+Part a) 
+
+  We downloaded the dataset (https://www.cs.toronto.edu/~kriz/cifar.html).
+
+Part b) 
+
+  We used Pytorch deep learning framework and the AlexNet pretrained model, to classify the images 
+  in the CIFAR10 dataset. We then constructed a confusion matrix that relates the CIFAR10 classes with 
+  the 10 most frequent classes from ImageNet predicted by the model.
+  
+Part c) 
+
+  Here, we used Pytorch deep learning framework and the AlexNet pretrained model to extract features for 
+  all the images in the CIFAR10 dataset. We then used the output of the ’fc6’ layer. We trained a linear 
+  classifier (logistic regression or linear svm) and evaluated it, using the train, validation and test 
+  partitions suggested for the dataset.
+  
+  
+Part d) 
+
+  We repeated the previous step, but this time using as features the output of the ’fc7’ layer.
+  We then compared and discussed the results.
+  
+  
