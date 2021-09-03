@@ -1,6 +1,30 @@
 === ASSIGNMENT DESCRIPTION: ===
 
-*** All the plots and plots can be found in the "report.pdf" file.
-    Quesion 1 involves Laplace smoothing  and Question 2 involves constructing
-    new kernels by combining the existing kernels. ***
+*** All the plots and plots can be found in the "report.pdf" file. ***
+
+--- Part 1: (Separable Convolution) ---
+
+    Separable Convolution refers to breaking down the convolution kernel into lower dimension kernels.
+    We show that convolution with a 2D Gaussian kernel is a spatially separable convolution, i.e. there are two
+    1D kernels if applied to the image row-wise and column-wise in sequence, it is equivalent to convolving
+    that image with the 2D Gaussian kernel. We discuss whether Sobel kernel spatially separable.
+    We then discuss why separable convolutions are preferred.
+    
+
+--- Part 2: (Edge Detection) ---
+
+    Here, we implemented Canny Edge Detection algorithm in "canny_eedge_class.py" and "canny_edge_test.py". 
+    We applied our program to detect edges in image 1. Our program takes as an input a grayscale image, the 
+    sigma of the Gaussian filter and the two low and high thresholds. The output of our program is a binary 
+    image. We implemented gaussian convolution as a separable sequence of horizontal and vertical convolutions.
+    
+    
+--- Part 3: (Corner Detection) ---
+
+    Here, we implemented Harris Corner Detection algorithm. We applied our program to detect
+    corners in image 1.
+    
+    
+* Any image in the /CS4442_a3 directory can be used for testing or any other preferred grayscale image. *
+    
     
